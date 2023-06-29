@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply outline-none;
+}
+body {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  color: #373737;
+}
+.tahoma {
+  font-family: "Tahoma";
+}
