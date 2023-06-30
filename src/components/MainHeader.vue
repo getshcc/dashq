@@ -5,7 +5,7 @@ import DashqIcon from "./icons/DashqIcon.vue";
 
 <template>
   <header
-    class="w-full col-span-1 md:col-span-12 grid grid-cols-[44px,calc(80%),auto] md:grid-cols-3 py-5 px-5 items-center justify-between lg:col-span-12">
+    class="w-full col-span-1 md:col-span-12 grid grid-cols-[44px,calc(80%),auto] md:grid-cols-3 py-6 px-5 items-center justify-between lg:col-span-12">
     <div class="block md:flex">
       <h1 class="flex items-center gap-x-2">
         <DashqIcon class="mr-2" />

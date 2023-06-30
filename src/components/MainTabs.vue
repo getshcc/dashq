@@ -32,11 +32,15 @@ const tab = ref('category')
     </header>
 
 
-    <Main>
-
-        <CategoryForm v-if="tab == 'category'" />
-        <ServiceForm v-if="tab == 'service'" />
-        <NotificationForm v-if="tab == 'notification'" />
-
-    </Main>
+    <main class="min-h-[80vh]">
+        <KeepAlive>
+            <CategoryForm v-if="tab == 'category'" />
+        </KeepAlive>
+        <KeepAlive>
+            <ServiceForm v-if="tab == 'service'" />
+        </KeepAlive>
+        <KeepAlive>
+            <NotificationForm v-if="tab == 'notification'" />
+        </KeepAlive>
+    </main>
 </template>

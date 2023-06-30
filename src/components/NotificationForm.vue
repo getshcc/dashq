@@ -1,5 +1,5 @@
 <template>
-    <main class="w-full max-w-[768px] mx-auto flex flex-col gap-y-8">
+    <main class="w-full max-w-[768px] mx-auto flex flex-col gap-y-8 pt-8">
         <div>
             <header class="font-bold">New Notification</header>
             <main class="mt-4">
